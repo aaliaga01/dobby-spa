@@ -6,4 +6,23 @@ nav{
 	background-color:$color_cafe;
 	padding: 14px 0 10px 0;
 	@include menu;
+	span{
+		padding-top: -20px;
+		font-size: $size_bullet;
+	}
+}
+
+.box{
+	background-image:url(../img/slide1.jpg);
+	@include slide;
+}
+
+.box1{
+	background-image:url(../img/slide2.jpg);
+	@include slide;
+}
+
+.box2{
+	background-image:url(../img/slide3.jpg);
+	@include slide;
 }

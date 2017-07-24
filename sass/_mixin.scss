@@ -8,6 +8,18 @@
 				text-decoration: none;
 				color:$color_blanco;
 			}
+			a:hover{
+				color:$color_blanco;
+				text-decoration: none;
+				font-weight: bolder;
+			}
 		}
 	}
+}
+
+@mixin slide(){
+	width:100%;
+    height:350px;
+    background-size: cover;
+    background-position: center;
 }
