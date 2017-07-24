@@ -26,3 +26,26 @@ nav{
 	background-image:url(../img/slide3.jpg);
 	@include slide;
 }
+
+.carousel-indicators{
+	margin-bottom:40px;
+	.active{
+	width:13px;
+	height:13px;
+	background-color:#996600;
+	}
+}
+
+#cafe{
+	width:100%;
+	height:400px;
+	background-color:$color_crema;
+	border-top:solid 2px $color_cafe;
+	.img-circle{
+		border:solid 10px $color_cremaosc;
+	}
+}
+
+.caja-servicios{
+	margin-top: -50px;
+}
