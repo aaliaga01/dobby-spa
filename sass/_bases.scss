@@ -48,4 +48,13 @@ nav{
 
 .caja-servicios{
 	margin-top: -50px;
+	h3{
+
+	}
+	p{
+		width: 70%;
+		font-size: $size_font_servicios;
+		margin-top: 40px;
+		text-align: justify;
+	}
 }

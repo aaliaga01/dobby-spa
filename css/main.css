@@ -5856,5 +5856,10 @@ nav {
 
 .caja-servicios {
   margin-top: -50px; }
+  .caja-servicios p {
+    width: 75%;
+    font-size: 12px;
+    margin-top: 40px;
+    text-align: justify; }
 
 /*# sourceMappingURL=main.css.map */
