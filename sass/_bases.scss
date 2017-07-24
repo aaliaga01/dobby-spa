@@ -44,17 +44,29 @@ nav{
 	.img-circle{
 		border:solid 10px $color_cremaosc;
 	}
+	.contenedor-img{
+		text-align: center;
+	}
 }
 
 .caja-servicios{
 	margin-top: -50px;
 	h3{
-
+		font-size: $size_font_titulos;
+		margin: 20px auto;
 	}
 	p{
-		width: 70%;
+		width: 82%;
 		font-size: $size_font_servicios;
-		margin-top: 40px;
-		text-align: justify;
+		margin: 0 auto;
+		text-align: center;
+		line-height: 20px;
+		padding-bottom: 30px;	
+	}
+	a{
+		font-size: $size_font_servicios;
+		background-color:$color_cremaosc;
+		color: $color_cafe;
+		padding:2px;
 	}
 }

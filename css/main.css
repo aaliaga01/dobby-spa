@@ -5853,13 +5853,25 @@ nav {
   border-top: solid 2px #330000; }
   #cafe .img-circle {
     border: solid 10px #ffdd99; }
+  #cafe .contenedor-img {
+    text-align: center; }
 
 .caja-servicios {
   margin-top: -50px; }
+  .caja-servicios h3 {
+    font-size: 18px;
+    margin: 20px auto; }
   .caja-servicios p {
-    width: 75%;
-    font-size: 12px;
-    margin-top: 40px;
-    text-align: justify; }
+    width: 82%;
+    font-size: 11px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 20px;
+    padding-bottom: 30px; }
+  .caja-servicios a {
+    font-size: 11px;
+    background-color: #ffdd99;
+    color: #330000;
+    padding: 2px; }
 
 /*# sourceMappingURL=main.css.map */
