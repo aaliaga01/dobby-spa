@@ -1,0 +1,9 @@
+body{
+	font-family:$fuente_gral;
+}
+
+nav{
+	background-color:$color_cafe;
+	padding: 14px 0 10px 0;
+	@include menu;
+}
