@@ -148,3 +148,66 @@ nav{
 		}
 	}
 }
+
+footer{
+	padding: $espaciado_seccion;
+	background-color:$color_cafe;
+	border-top: solid 1px $color_blancohumo;
+	font-family:$fuente_nav;
+	color: $color_cremaosc;
+
+	h4{
+		padding-bottom: 20px;
+	}
+	.facebook{
+		margin-left:-20px;
+		img{
+			@include iconos;
+		}
+	}
+	.google{
+		img{
+			@include iconos;
+		}
+	}
+	.twitter{
+		img{
+			@include iconos;
+		}
+	}
+	.rss{
+		img{
+			@include iconos;
+		}
+	}
+	p {
+		font-size: $size_font_servicios;
+		.fa{
+			float: left;
+			font-size: $size_quote;
+			padding:10px;
+		}
+	}
+	.contact-address{
+		.telef{
+			font-size: $size_font_titulos;
+		}
+		.direccion{
+			margin-top: 30px;
+			margin-bottom:0px;
+		}
+		.mail{
+			span{
+				color:$color_naranja;
+			}
+		}
+	}
+	hr{
+		width: 90%;
+		margin-top: 40px;
+		padding-bottom: 10px;
+		border-color: $color_cremaosc;
+		text-align: center;
+
+	}
+}

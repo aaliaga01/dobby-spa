@@ -5945,4 +5945,58 @@ nav {
       top: 65px;
       left: 15px; }
 
+footer {
+  padding: 40px 0;
+  background-color: #330000;
+  border-top: solid 1px whitesmoke;
+  font-family: "Cairo", sans-serif;
+  color: #ffdd99; }
+  footer h4 {
+    padding-bottom: 20px; }
+  footer .facebook {
+    margin-left: -20px; }
+    footer .facebook img {
+      width: 100px;
+      height: 100px;
+      background-color: #ffffcc;
+      border: solid 4px #ff7d52;
+      border-radius: 100px; }
+  footer .google img {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffcc;
+    border: solid 4px #ff7d52;
+    border-radius: 100px; }
+  footer .twitter img {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffcc;
+    border: solid 4px #ff7d52;
+    border-radius: 100px; }
+  footer .rss img {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffcc;
+    border: solid 4px #ff7d52;
+    border-radius: 100px; }
+  footer p {
+    font-size: 11px; }
+    footer p .fa {
+      float: left;
+      font-size: 50px;
+      padding: 10px; }
+  footer .contact-address .telef {
+    font-size: 18px; }
+  footer .contact-address .direccion {
+    margin-top: 30px;
+    margin-bottom: 0px; }
+  footer .contact-address .mail span {
+    color: #ff7d52; }
+  footer hr {
+    width: 90%;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    border-color: #ffdd99;
+    text-align: center; }
+
 /*# sourceMappingURL=main.css.map */
