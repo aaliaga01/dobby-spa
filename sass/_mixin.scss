@@ -23,3 +23,40 @@
     background-size: cover;
     background-position: center;
 }
+
+@mixin bullet(){
+	content:$bullet_welcome;
+	font-family:$fuente_icon;
+	font-size: 14px;	
+	padding: 0 8px;
+	color: $color_cafeclaro;
+}
+
+@mixin border_blanco(){
+	border: solid thin $color_blancohumo;
+	border-radius: 30px;
+}
+
+@mixin border_cafe_img(){
+	border: solid thin $color_cafe;
+	border-radius: 30px;
+}
+
+@mixin separador_der(){
+	content:$bullet_hr;
+	font-family:$fuente_icon;
+	font-size: 12px;	
+	color: $color_cremaosc;
+	position: absolute;
+	top:65px;
+}
+
+@mixin separador_izq(){
+	content:$bullet_hr;
+	font-family:$fuente_icon;
+	font-size: 12px;	
+	color: $color_cremaosc;
+	position: absolute;
+	top:65px;
+	left:15px;
+}

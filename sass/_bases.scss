@@ -1,3 +1,9 @@
+
+@font-face {
+	font-family:fontawesome-webfont;
+	src: url(../fonts/fontawesome-webfont.ttf);
+}
+
 body{
 	font-family:$fuente_gral;
 }
@@ -58,6 +64,7 @@ nav{
 	p{
 		width: 82%;
 		font-size: $size_font_servicios;
+		font-family:$fuente_nav;
 		margin: 0 auto;
 		text-align: center;
 		line-height: 20px;
@@ -68,5 +75,76 @@ nav{
 		background-color:$color_cremaosc;
 		color: $color_cafe;
 		padding:2px;
+	}
+}
+
+#bienvenida{
+	padding: $espaciado_seccion;
+	background-color:$color_blancohumo;
+	font-family:$fuente_nav;
+	.img-bienvenida{
+		img{
+			@include border_blanco;
+		}
+	}
+	h2{
+		font-family:$fuente_gral;
+		color:$color_naranja;
+		margin-top: 0;
+	}
+	ul{
+		margin: 20px auto;
+		li{
+			list-style-type: none;
+			padding-top:10px;
+			margin-left: -40px;
+		}
+		li:before{
+			@include bullet;	
+		}
+	}
+	p{
+		padding-top: 10px;
+	}
+}
+
+#empresa{
+	padding: $espaciado_seccion;
+	background-color:$color_cafeclaro;
+	font-family:$fuente_nav;
+	color: $color_cremaosc;
+
+	.textos-empresa-col1{
+		margin-right: 10px;
+	
+		img{
+			@include border_cafe_img;
+			float: left;
+		}
+		hr{
+			width: 300px;
+			margin-right:10px;
+			border-color:$color_cremaosc;
+		}
+		hr:after{
+			@include separador_der;
+		}
+	}
+
+	.textos-empresa-col2{
+		margin-left:10px;
+	
+		img{
+			@include border_cafe_img;
+			float: right;
+		}
+		hr{
+			width: 300px;
+			margin-left:10px;
+			border-color:$color_cremaosc;
+		}
+		hr:before{
+			@include separador_izq;
+		}
 	}
 }
